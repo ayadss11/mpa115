@@ -1,166 +1,103 @@
-const ServerID = "546999585583923200"; //اي دي السيرفر
-const ChannelID = "547009532967256075";// اي دي الروم
-
-console.log(`
- 
-                                                                                                            
-                                                                                                            
-  ______   ______   ______   ______   ______   ______   ______   ______   ______   ______   ______   ______ 
- /_____/  /_____/  /_____/  /_____/  /_____/  /_____/  /_____/  /_____/  /_____/  /_____/  /_____/  /_____/ 
-                                                                                                            
-                                                                                                            
-		
- ▒█▀▀█ █▀▀█ █▀▀█ █▀▀▄ █▀▀█ ▀▀█▀▀ 
- ▒█▄▄█ █▄▄▀ █░░█ █▀▀▄ █░░█ ░░█░░ 
- ▒█░░░ ▀░▀▀ ▀▀▀▀ ▀▀▀░ ▀▀▀▀ ░░▀░░ 
-         
- ▒█▀▀█ █▀▀█ █▀▀ █▀▀▄ ░▀░ ▀▀█▀▀ █▀▀ 
- ▒█░░░ █▄▄▀ █▀▀ █░░█ ▀█▀ ░░█░░ ▀▀█ 
- ▒█▄▄█ ▀░▀▀ ▀▀▀ ▀▀▀░ ▀▀▀ ░░▀░░ ▀▀▀ 
- 
-▒█▀▄▀█ ░▀░ █▀▀▄ █▀▀ █▀▀█ 
-▒█▒█▒█ ▀█▀ █░░█ █▀▀ █▄▄▀ 
-▒█░░▒█ ▀▀▀ ▀░░▀ ▀▀▀ ▀░▀▀ 
-        ______   ______   ______   ______   ______   ______   ______   ______   ______   ______   ______   ______ 
-        /_____/  /_____/  /_____/  /_____/  /_____/  /_____/  /_____/  /_____/  /_____/  /_____/  /_____/  /_____/ 
-`)
-const Discord = require('discord.js');
+const Discord = require("discord.js");
 const client = new Discord.Client();
+const client2 = new Discord.Client();
 
-client.on('warn', console.warn);
-
-client.on('error', console.error);
-// ShaDoW_MaN
-console.log(`ShaDoW_MaN`)
-console.log(`
-______   ______   ______   ______   ______   ______   ______   ______   ______   ______   ______   ______ 
-/_____/  /_____/  /_____/  /_____/  /_____/  /_____/  /_____/  /_____/  /_____/  /_____/  /_____/  /_____/ 
-╭━━━╮╱╱╱╱╭╮╱╱╱╱╭╮╱╭━━━╮╱╱╱╱╱╱╭╮╭╮╱╱╱╱╭━╮╭━╮
-┃╭━╮┃╱╱╱╱┃┃╱╱╱╭╯╰╮┃╭━╮┃╱╱╱╱╱╱┃┣╯╰╮╱╱╱┃┃╰╯┃┃
-┃╰━╯┣━┳━━┫╰━┳━┻╮╭╯┃┃╱╰╋━┳━━┳━╯┣╮╭╋━━╮┃╭╮╭╮┣┳━╮╭━━┳━╮
-┃╭━━┫╭┫╭╮┃╭╮┃╭╮┃┃╱┃┃╱╭┫╭┫┃━┫╭╮┣┫┃┃━━┫┃┃┃┃┃┣┫╭╮┫┃━┫╭╯
-┃┃╱╱┃┃┃╰╯┃╰╯┃╰╯┃╰╮┃╰━╯┃┃┃┃━┫╰╯┃┃╰╋━━┃┃┃┃┃┃┃┃┃┃┃┃━┫┃
-╰╯╱╱╰╯╰━━┻━━┻━━┻━╯╰━━━┻╯╰━━┻━━┻┻━┻━━╯╰╯╰╯╰┻┻╯╰┻━━┻╯    
-╭━━━╮╭╮╱╱╱╱╱╭╮
-┃╭━╮┣╯╰╮╱╱╱╭╯╰╮
-┃╰━━╋╮╭╋━━┳┻╮╭╋┳━╮╭━━╮
-╰━━╮┃┃┃┃╭╮┃╭┫┃┣┫╭╮┫╭╮┃
-┃╰━╯┃┃╰┫╭╮┃┃┃╰┫┃┃┃┃╰╯┃╭┳┳╮
-╰━━━╯╰━┻╯╰┻╯╰━┻┻╯╰┻━╮┃╰┻┻╯
-╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃
-╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━━╯
-______   ______   ______   ______   ______   ______   ______   ______   ______   ______   ______   ______ 
-/_____/  /_____/  /_____/  /_____/  /_____/  /_____/  /_____/  /_____/  /_____/  /_____/  /_____/  /_____/ 
-`)
+client.on('ready', () => {
+   console.log(`----------------`);
+   console.log(`Credit Farmm - Script By : Kahrbaa `);
+   console.log(`----------------`);
+   console.log(`Loadinng`);
+   console.log(`Loadinng.`);
+   console.log(`Loadinng..`);
+   console.log(`Loadinng...`);
+   console.log(`This Bots Online ' `);
+   console.log(`----------------`);
+});
 
 
-client.on('ready', () => console.log(`
-╭━━━╮╱╱╱╱╱╱╱╱╱╭━╮╭━╮╱╱╱╱╱╱╱╱╱╭━━━╮╭╮╱╱╱╱╱╭╮╱╱╱╱╱╭╮╭╮
-╰╮╭╮┃╱╱╱╱╱╱╱╱╱┃┃╰╯┃┃╱╱╱╱╱╱╱╱╱┃╭━╮┣╯╰╮╱╱╱╭╯╰╮╱╱╱╱┃┃┃┃
-╱┃┃┃┣━━┳━╮╭━━╮┃╭╮╭╮┣┳━╮╭━━┳━╮┃╰━━╋╮╭╋━━┳┻╮╭╋━━┳━╯┃┃┃
-╱┃┃┃┃╭╮┃╭╮┫┃━┫┃┃┃┃┃┣┫╭╮┫┃━┫╭╯╰━━╮┃┃┃┃╭╮┃╭┫┃┃┃━┫╭╮┃╰╯
-╭╯╰╯┃╰╯┃┃┃┃┃━┫┃┃┃┃┃┃┃┃┃┃┃━┫┃╱┃╰━╯┃┃╰┫╭╮┃┃┃╰┫┃━┫╰╯┃╭╮╭╮
-╰━━━┻━━┻╯╰┻━━╯╰╯╰╯╰┻┻╯╰┻━━┻╯╱╰━━━╯╰━┻╯╰┻╯╰━┻━━┻━━╯╰╯╰╯
-`));// ShaDoW_MaN
+client.on('message', message => {
+    if(message.content === '-راتب'){
+        message.channel.send('#daily')
+    }
+});
 
-client.on('disconnect', () => console.log(`
-╭━╮╭━╮╱╱╱╱╱╱╱╱╱╭╮╱╭╮╱╱╱╱╭╮
-┃┃╰╯┃┃╱╱╱╱╱╱╱╱╱┃┃╱┃┃╱╱╱╱┃┃             
-┃╭╮╭╮┣┳━╮╭━━┳━╮┃╰━╯┣━━┳━╯┃
-┃┃┃┃┃┣┫╭╮┫┃━┫╭╯┃╭━╮┃╭╮┃╭╮┃
-┃┃┃┃┃┃┃┃┃┃┃━┫┃╱┃┃╱┃┃╭╮┃╰╯┃
-╰╯╰╯╰┻┻╯╰┻━━┻╯╱╰╯╱╰┻╯╰┻━━╯
-╭━━━╮╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭╮╱╱╱╱╱╭┳╮
-╰╮╭╮┃╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭╯╰╮╱╱╱╱┃┃┃
-╱┃┃┃┣┳━━┳━━┳━━┳━╮╭━╮╭━━┳━┻╮╭╋━━┳━╯┃┃
-╱┃┃┃┣┫━━┫╭━┫╭╮┃╭╮┫╭╮┫┃━┫╭━┫┃┃┃━┫╭╮┣╯
-╭╯╰╯┃┣━━┃╰━┫╰╯┃┃┃┃┃┃┃┃━┫╰━┫╰┫┃━┫╰╯┣╮
-╰━━━┻┻━━┻━━┻━━┻╯╰┻╯╰┻━━┻━━┻━┻━━┻━━┻╯
-`));
+client.on('message', message => {
+    if(message.content === '-مبلغ'){
+        message.channel.send('#credits')
+    }
+});
 
-client.on('reconnecting', () => console.log(`
-╭━━━╮╱╱╱╱╭╮╱╱╱╱╭╮╱╭━━━╮╱╱╱╱╱╱╭╮╭╮
-┃╭━╮┃╱╱╱╱┃┃╱╱╱╭╯╰╮┃╭━╮┃╱╱╱╱╱╱┃┣╯╰╮
-┃╰━╯┣━┳━━┫╰━┳━┻╮╭╯┃┃╱╰╋━┳━━┳━╯┣╮╭╋━━╮
-┃╭━━┫╭┫╭╮┃╭╮┃╭╮┃┃╱┃┃╱╭┫╭┫┃━┫╭╮┣┫┃┃━━┫
-┃┃╱╱┃┃┃╰╯┃╰╯┃╰╯┃╰╮┃╰━╯┃┃┃┃━┫╰╯┃┃╰╋━━┃
-╰╯╱╱╰╯╰━━┻━━┻━━┻━╯╰━━━┻╯╰━━┻━━┻┻━┻━━╯
-╭━╮╭━╮╱╱╱╱╱╱╱╱╱╭━━╮               
-┃┃╰╯┃┃╱╱╱╱╱╱╱╱╱╰┫┣╯
-┃╭╮╭╮┣┳━╮╭━━┳━╮╱┃┃╭━━╮
-┃┃┃┃┃┣┫╭╮┫┃━┫╭╯╱┃┃┃━━┫
-┃┃┃┃┃┃┃┃┃┃┃━┫┃╱╭┫┣╋━━┃
-╰╯╰╯╰┻┻╯╰┻━━┻╯╱╰━━┻━━╯           
-╭━━━╮╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭╮
-┃╭━╮┃╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭╯╰╮
-┃╰━╯┣━━┳━━┳━━┳━╮╭━╮╭━━┳━┻╮╭╋┳━╮╭━━╮
-┃╭╮╭┫┃━┫╭━┫╭╮┃╭╮┫╭╮┫┃━┫╭━┫┃┣┫╭╮┫╭╮┃
-┃┃┃╰┫┃━┫╰━┫╰╯┃┃┃┃┃┃┃┃━┫╰━┫╰┫┃┃┃┃╰╯┣┳┳╮
-╰╯╰━┻━━┻━━┻━━┻╯╰┻╯╰┻━━┻━━┻━┻┻╯╰┻━╮┣┻┻╯
-╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃
-╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━━╯
-`));// ShaDoW_MaN
+client.on('message', message => {
+    if(message.content === '-ريب'){
+        message.channel.send('#credits')
+    }
+});
 
+client2.on('message', message => {
+    if(message.content === '-راتب'){
+        message.channel.send('#daily')
+    }
+});
 
-client.on('ready', async() => {
-    setInterval(()=>{
-    client.guilds.get(ServerID).channels.get(ChannelID).send('**Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , **')
-    },2000);
-})
+client2.on('message', message => {
+    if(message.content === '-مبلغ'){
+        message.channel.send('#credits')
+    }
+});
+
+client2.on('message', message => {
+    if(message.content === '-ريب'){
+        message.channel.send('#credits')
+    }
+});
 
 
 
+client.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
+if (message.content === '!spam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 90000; x++) {
+        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
 
-client.on('ready', async() => {
-    setInterval(()=>{
-    client.guilds.get(ServerID).channels.get(ChannelID).send('**Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , **')
-    },2000);
-})
-
-
-
-client.on('ready', async() => {
-    setInterval(()=>{
-    client.guilds.get(ServerID).channels.get(ChannelID).send('**Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , **')
-    },2000);
-})
-
-
-
-client.on('ready', async() => {
-    setInterval(()=>{
-    client.guilds.get(ServerID).channels.get(ChannelID).send('**Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , **')
-    },2000);
-})
-
-
-client.on('ready', async() => {
-    setInterval(()=>{
-    client.guilds.get(ServerID).channels.get(ChannelID).send('**Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , **')
-    },2000);
-})
-
-
-client.on('ready', async() => {
-    setInterval(()=>{
-    client.guilds.get(ServerID).channels.get(ChannelID).send('**Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , **')
-    },2000);
-})
-
-
-client.on('ready', async() => {
-    setInterval(()=>{
-    client.guilds.get(ServerID).channels.get(ChannelID).send('**Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , **')
-    },2000);
-})
-
-
-client.on('ready', async() => {
-    setInterval(()=>{
-    client.guilds.get(ServerID).channels.get(ChannelID).send('**Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , **')
-    },2000);
-})
+client2.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
+if (message.content === '!spam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 90000; x++) {
+        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
 
 
 
-client.login(process.env.TOKEN); 
+client.on('message', message => {
+    if(message.content === '-تحويل'){
+        message.channel.send('#credits <@441584713799303183>')
+    }
+});
+
+
+
+
+client2.on('message', message => {
+    if(message.content === '-تحويل'){
+        message.channel.send('#credits <@441584713799303183>')
+    }
+});
+
+
+
+client.login(process.env.TOKEN);// لا تغير فيها شيء
