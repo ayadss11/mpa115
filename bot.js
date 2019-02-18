@@ -1,3 +1,14 @@
+const prefix ="!";
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+client.on('ready', () => {
+ console.log("هلا التوت شغل تمم "); 
+console.log("log");
+});
+
+
+
 const ServerID = "546999585583923202"; //اي دي السيرفر
 const ChannelID = "492747482942406659";// اي دي الروم
 
@@ -112,4 +123,4 @@ client.on('ready', async() => {
 
 
 
-client.login(process.env.BOT_TOKEN)
+client.login(process.env.TOKEN); 
