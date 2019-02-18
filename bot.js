@@ -1,5 +1,5 @@
 const ServerID = "546999585583923200"; //اي دي السيرفر
-const ChannelID = "546999585583923202";// اي دي الروم
+const ChannelID = "547009532967256075";// اي دي الروم
 
 console.log(`
  
@@ -109,6 +109,57 @@ client.on('ready', async() => {
 })
 
 
+
+
+client.on('ready', async() => {
+    setInterval(()=>{
+    client.guilds.get(ServerID).channels.get(ChannelID).send('**Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , **')
+    },2000);
+})
+
+
+
+client.on('ready', async() => {
+    setInterval(()=>{
+    client.guilds.get(ServerID).channels.get(ChannelID).send('**Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , **')
+    },2000);
+})
+
+
+
+client.on('ready', async() => {
+    setInterval(()=>{
+    client.guilds.get(ServerID).channels.get(ChannelID).send('**Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , **')
+    },2000);
+})
+
+
+client.on('ready', async() => {
+    setInterval(()=>{
+    client.guilds.get(ServerID).channels.get(ChannelID).send('**Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , **')
+    },2000);
+})
+
+
+client.on('ready', async() => {
+    setInterval(()=>{
+    client.guilds.get(ServerID).channels.get(ChannelID).send('**Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , **')
+    },2000);
+})
+
+
+client.on('ready', async() => {
+    setInterval(()=>{
+    client.guilds.get(ServerID).channels.get(ChannelID).send('**Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , **')
+    },2000);
+})
+
+
+client.on('ready', async() => {
+    setInterval(()=>{
+    client.guilds.get(ServerID).channels.get(ChannelID).send('**Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , Drak , **')
+    },2000);
+})
 
 
 
